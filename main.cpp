@@ -152,12 +152,12 @@ void creatAllPlanets() {
   GLUquadricObj *obj_mars = NULL;
   obj_mars = initPlanetObject(obj_mars);
 
-	createObject(obj_sun, sun_size, sun_X, sun_Y, sun_rotate, "../img/sol.png");
-	createObject(obj_mercury, mercury_size, mercury_X, mercury_Y, mercury_rotate, "../img/mercurio.png");
-	createObject(obj_uranus, uranus_size, uranus_X, uranus_Y, uranus_rotate, "../img/urano.png");
-	createObject(obj_venus, venus_size, venus_X, venus_Y, venus_rotate, "../img/venus.png");
-	createObject(obj_earth, earth_size, earth_X, earth_Y, earth_rotate, "../img/terra.png");
-	createObject(obj_mars, mars_size, mars_X, mars_Y, mars_rotate, "../img/marte.png");
+	createObject(obj_sun, sun_size, sun_X, sun_Y, sun_rotate, "img/sol.png");
+	createObject(obj_mercury, mercury_size, mercury_X, mercury_Y, mercury_rotate, "img/mercurio.png");
+	createObject(obj_uranus, uranus_size, uranus_X, uranus_Y, uranus_rotate, "img/urano.png");
+	createObject(obj_venus, venus_size, venus_X, venus_Y, venus_rotate, "img/venus.png");
+	createObject(obj_earth, earth_size, earth_X, earth_Y, earth_rotate, "img/terra.png");
+	createObject(obj_mars, mars_size, mars_X, mars_Y, mars_rotate, "img/marte.png");
 }
 
 void display(void) {
